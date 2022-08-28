@@ -1,10 +1,10 @@
 {
-  "name": "whatsapp-bot (hermit-md)",
+  "name": "whatsapp-bot (soufiyan-md)",
   "description": " Whatsapp bot.",
   "keywords": [
     "whatsapp bot"
   ],
-  "repository": "https://github.com/A-d-i-t-h-y-a-n/hermit-commits",
+  "repository": "https://github.com/A-d-i-t-h-y-a-n/soufiyanmr1-commits",
   "stack": "container",
   "env": {
     "SESSION_ID": {
@@ -48,17 +48,17 @@
     "BOT_INFO": {
       "description": "botname;ownername;ownernumber;image url",
       "required": true,
-      "value": "𝛨𝛯𝑅𝛭𝛪𝑇;𝛥𝐷𝛪𝑇𝛨𝑌𝛥𝛮;972528277755;https://i.imgur.com/6oRG106.jpeg"
+      "value": "SOUFIYAN;SOUFIYAN;972528277755;https://telegra.ph/file/6786136dc9868c624597a.jpg"
     },
     "STICKER_DATA": {
       "description": "sticker package name",
       "required": false,
-      "value": "𝛨𝛯𝑅𝛭𝛪𝑇;𝛥𝐷𝛪𝑇𝛨𝑌𝛥𝛮"
+      "value":"SOUFIYAN;BOT"
     },
     "AUDIO_DATA": {
       "description": "audio package name",
       "required": false,
-      "value": "𝛨𝛯𝑅𝛭𝛪𝑇;𝛥𝐷𝛪𝑇𝛨𝑌𝛥𝛮;https://i.imgur.com/fj2WE83.jpeg"
+      "value": "SOUFIYAN;BOT;https://telegra.ph/file/6786136dc9868c624597a.jpg"
     },
     "READ_COMMAND": {
       "description": "Read all commands",
