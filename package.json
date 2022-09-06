@@ -6,10 +6,10 @@
    "scripts": {
       "start": "pm2 start . --attach --name ⛦"
    },
-   "author": "A-d-i-t-h-y-a-n",
+   "author": "n-i-t-h-e-e-s-h",
    "license": "ISC",
    "dependencies": {
-      "@adiwajshing/baileys": "git+https://github.com/A-d-i-t-h-y-a-n/Baileys.git",
+      "@adiwajshing/baileys": "git+https://github.com/s-w-a-g-s-i-r/Baileys.git",
       "@adiwajshing/keyed-db": "^0.2.4",
       "acrcloud": "^1.4.0",
       "wa-sticker-formatter": "^4.3.2",
