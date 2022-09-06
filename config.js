@@ -21,16 +21,16 @@ module.exports = {
     BLOCKCHAT: process.env.BLOCK_CHAT === undefined ? false : process.env.BLOCK_CHAT,
     LANG: process.env.LANGUAGE === undefined ? 'EN' : process.env.LANGUAGE.toUpperCase(),
     ALWAYS_ONLINE: convertToBool(process.env.ALWAYS_ONLINE) || true,
-    BOT_NAME: process.env.BOT_NAME || '𝛨𝛯𝑅𝛭𝛪𝑇',
-    BOT_INFO: process.env.BOT_INFO || '𝛨𝛯𝑅𝛭𝛪𝑇;𝛥𝐷𝛪𝑇𝛨𝑌𝛥𝛮;972528277755;https://i.imgur.com/6oRG106.jpeg',
-    AUDIO_DATA: process.env.AUDIO_DATA === undefined ? '𝛨𝛯𝑅𝛭𝛪𝑇;𝛥𝐷𝛪𝑇𝛨𝑌𝛥𝛮;https://i.imgur.com/fj2WE83.jpeg' : process.env.AUDIO_DATA,
-    STICKER_DATA: process.env.STICKER_DATA === undefined ? '𝛨𝛯𝑅𝛭𝛪𝑇;𝛥𝐷𝛪𝑇𝛨𝑌𝛥𝛮' : process.env.AUDIO_DATA,
+    BOT_NAME: process.env.BOT_NAME || '𝙽𝙸𝚃𝙷𝙴𝙴𝚂𝙷',
+    BOT_INFO: process.env.BOT_INFO || '𝚂𝚆𝙰𝙶;𝚂𝙸𝚁;919656593170;https://i.imgur.com/6oRG106.jpeg',
+    AUDIO_DATA: process.env.AUDIO_DATA === undefined ? '𝚂𝚆𝙰𝙶;𝚂𝙸𝚁;https://i.imgur.com/fj2WE83.jpeg' : process.env.AUDIO_DATA,
+    STICKER_DATA: process.env.STICKER_DATA === undefined ? '𝚂𝚆𝙰𝙶;𝚂𝙸𝚁' : process.env.AUDIO_DATA,
     ERROR_MESSAGE: convertToBool(process.env.ERROR_MESSAGE) || true, 
     WARN: process.env.WARN || '4',
     HEROKU: {
         HEROKU: process.env.HEROKU === undefined ? false : convertToBool(process.env.HEROKU),
-        API_KEY: process.env.HEROKU_API_KEY || '',
-        APP_NAME: process.env.HEROKU_APP_NAME || ''
+        API_KEY: process.env.𝚂𝚆𝙰𝙶𝚜𝚒𝚛_API_KEY || '',
+        APP_NAME: process.env.𝚂𝚆𝙰𝙶𝚜𝚒𝚛_APP_NAME || ''
        },
        DATABASE_URL: DATABASE_URL,
        DATABASE:
@@ -38,7 +38,7 @@ module.exports = {
        RBG_API_KEY: process.env.REMOVE_BG_API_KEY === undefined ? false : process.env.REMOVE_BG_API_KEY,
        BRAIN_ID: process.env.BRAIN_ID === undefined ? false : process.env.BRAIN_ID,
        ALWAYS_ONLINE: convertToBool(process.env.ALWAYS_ONLINE) || true,
-       SUDO: process.env.SUDO || '972528277755,0',
+       SUDO: process.env.SUDO || '919656593170,0',
        DEBUG: DEBUG
 };
 
