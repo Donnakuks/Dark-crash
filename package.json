@@ -1,7 +1,7 @@
 {
-   "name": "Hermit-md",
+   "name": "Nitheesh💞😚-md",
    "version": "4.2.1",
-   "description": "Hermit-md - Simple whatsapp Multi Device bot based on @adiwajshing/baileys.",
+   "description": "Nitheesh🖤-md - Simple whatsapp Multi Device bot based on @adiwajshing/baileys.",
    "main": "index.js",
    "scripts": {
       "start": "pm2 start . --attach --name ⛦"
