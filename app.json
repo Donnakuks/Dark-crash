@@ -1,9 +1,7 @@
 {
   "name": "whatsapp-bot (hermit-md)",
   "description": " Whatsapp bot.",
-  "keywords": [
-    "whatsapp bot"
-  ],
+  "keywords": ["whatsapp bot"],
   "repository": "https://github.com/A-d-i-t-h-y-a-n/hermit-commits",
   "stack": "container",
   "env": {
@@ -64,6 +62,10 @@
       "description": "Read all commands",
       "required": false,
       "value": "false"
+    },
+    "SS_API": {
+      "description": "API key obtained from https://www.screenshotapi.net/",
+      "required": false
     }
   },
   "addons": [
