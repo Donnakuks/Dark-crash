@@ -51,3 +51,20 @@ Function({on: 'text', fromMe: false}, async (message, text, client) => {
         }
     );
 });
+    if (Config.GEAR == 'two') {    
+    Asena.addCommand({on: 'text', fromMe: false}, (async (message, match) => {   
+        if(Config.BGMFILTER){
+        let banned = jid.find( Jid => Jid === message.jid);
+        if(banned !== undefined) return
+        if (!!message.mention && message.mention[0] == '919037752256@s.whatsapp.net') {
+await message.client.sendMessage(message.jid, fs.readFileSync('./media/uploads/Alive.mp3'), MessageType.audio, { mimetype: Mimetype.mp4Audio, quoted : message.data, ptt: true})
+        }
+        if (!!message.mention && message.mention[0] == Config.MENTION) {
+await message.client.sendMessage(message.jid, fs.readFileSync('./media/uploads/Ameer.mp3'), MessageType.audio, { mimetype: Mimetype.mp4Audio, quoted : message.data, ptt: true})
+        }
+        var uri = encodeURI(match[1])
+const array = ['Aa','Alive','ðŸ˜˜','Aliyan mare','Alone','Change','Chetta','Daa','Dee','Dj chathan','Hi','hii','Hlo','I love you','Love you','Mm','Morning','Muthe','Oho','Ok','Oo','Poda myre','Post','Sad','.tag','Theep','ðŸ˜¡']
+array.map( async (a) => {
+let pattern = new RegExp(`\\b${a}\\b`, 'g');
+if(pattern.test(message.message)){
+       await message.client.sendMessage(message.jid, fs.readFileSync('./media/uploads/' + a + '.mp3'), MessageType.audio, { mimetype: Mimetype.mp4Audio, quoted: message.data, ptt: true})
