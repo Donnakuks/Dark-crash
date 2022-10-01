@@ -7,7 +7,11 @@ Hermit-md - Simple whatsapp Multi Device bot based on @adiwajshing/baileys
 ## ᴍʀʟɪɴᴜxͯ ᴀᷧᴅᴇᴇʙᷩ
 Ｉａｍ Ａｄｅｅｂ
 ***
-
+X
+*** 
+***
+* ᴍʀʟɪɴᴜxͯ
+***
 ### SETUP
 
 1. Scan the QR.
