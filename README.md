@@ -1,4 +1,4 @@
-<a><img src='https://c.tenor.com/bAwdH50mE4UAAAAC/flatline-heart-beat.gif'/></a>
+<a><img src='https://i.imgur.com/dnwxiD3.jpeg'/></a>
 ## Hermit Md Whatsapp Bot
 
 Hermit-md - Simple whatsapp Multi Device bot based on @adiwajshing/baileys
