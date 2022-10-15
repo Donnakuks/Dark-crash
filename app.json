@@ -1,5 +1,5 @@
 {
-  "name": "whatsapp-bot (hermit-md)",
+  "name": "🦋 NITHEESH 🕊️",
   "description": " Whatsapp bot.",
   "keywords": [
     "whatsapp bot"
@@ -48,17 +48,17 @@
     "BOT_INFO": {
       "description": "botname;ownername;ownernumber;image url",
       "required": true,
-      "value": "𝛨𝛯𝑅𝛭𝛪𝑇;𝛥𝐷𝛪𝑇𝛨𝑌𝛥𝛮;972528277755;https://i.imgur.com/6oRG106.jpeg"
+      "value": "NITHEESH 🕊️;919656593170;https://i.imgur.com/ivCKLIG.jpeg"
     },
     "STICKER_DATA": {
       "description": "sticker package name",
       "required": false,
-      "value": "𝛨𝛯𝑅𝛭𝛪𝑇;𝛥𝐷𝛪𝑇𝛨𝑌𝛥𝛮"
+      "value": "NITHEESH 👻"
     },
     "AUDIO_DATA": {
       "description": "audio package name",
       "required": false,
-      "value": "𝛨𝛯𝑅𝛭𝛪𝑇;𝛥𝐷𝛪𝑇𝛨𝑌𝛥𝛮;https://i.imgur.com/fj2WE83.jpeg"
+      "value": "NITHEESH 🤍;https://i.imgur.com/ivCKLIG.jpeg"
     },
     "READ_COMMAND": {
       "description": "Read all commands",
