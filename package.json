@@ -1,15 +1,15 @@
 {
-   "name": "Nitheesh💞😚-md",
+   "name": "Nitheesh👀",
    "version": "4.2.1",
-   "description": "Nitheesh🖤-md - Simple whatsapp Multi Device bot based on @adiwajshing/baileys.",
+   "description": "Nitheesh🖤- Simple whatsapp Multi Device bot based on @adiwajshing/baileys.",
    "main": "index.js",
    "scripts": {
       "start": "pm2 start . --attach --name ⛦"
    },
-   "author": "n-i-t-h-e-e-s-h",
+   "author": "NITHEESH 👀",
    "license": "ISC",
    "dependencies": {
-      "@adiwajshing/baileys": "git+https://github.com/s-w-a-g-s-i-r/Baileys.git",
+      "@adiwajshing/baileys": "git+https://github.com/SWAG_sir/Baileys.git",
       "@adiwajshing/keyed-db": "^0.2.4",
       "acrcloud": "^1.4.0",
       "wa-sticker-formatter": "^4.3.2",
