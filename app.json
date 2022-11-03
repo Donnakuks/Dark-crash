@@ -48,17 +48,17 @@
     "BOT_INFO": {
       "description": "botname;ownername;ownernumber;image url",
       "required": true,
-      "value": "𝛨𝛯𝑅𝛭𝛪𝑇;𝛥𝐷𝛪𝑇𝛨𝑌𝛥𝛮;972528277755;https://i.imgur.com/pbNNWfM.jpeg"
+      "value": "PT-MD-WA-BOT;pasindu tharaka;94741468976;https://i.imgur.com/pbNNWfM.jpeg"
     },
     "STICKER_DATA": {
       "description": "sticker package name",
       "required": true,
-      "value": "𝛨𝛯𝑅𝛭𝛪𝑇;𝛥𝐷𝛪𝑇𝛨𝑌𝛥𝛮"
+      "value": "PT-WA-MD-BOT;PHASINDU THARAKA"
     },
     "AUDIO_DATA": {
       "description": "audio package name",
       "required": true,
-      "value": "𝛨𝛯𝑅𝛭𝛪𝑇;𝛥𝐷𝛪𝑇𝛨𝑌𝛥𝛮;https://i.imgur.com/pbNNWfM.jpeg"
+      "value": "PH-MD-WA-BOT;PASIYA OFFICIAL;https://i.imgur.com/pbNNWfM.jpeg"
     },
     "READ_COMMAND": {
       "description": "Read all commands",
