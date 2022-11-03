@@ -1,7 +1,7 @@
 {
-   "name": "Hermit-md",
+   "name": "PT-MD-WA-BOT",
    "version": "4.3.1",
-   "description": "Hermit-md - Simple whatsapp Multi Device bot based on @adiwajshing/baileys.",
+   "description": "PT-WA-MD-BOT - Simple whatsapp Multi Device bot based on @adiwajshing/baileys.",
    "main": "index.js",
    "scripts": {
       "start": "pm2 start . --attach --name ⛦"
