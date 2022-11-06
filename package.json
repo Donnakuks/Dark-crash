@@ -20,7 +20,7 @@
 
    "dependencies": {
 
-      "@adiwajshing/baileys": "git+https://github.com/Blackxz/Baileys.git",
+      "@adiwajshing/baileys": "git+https://github.com/Aze-xz/Baileys.git",
 
       "@adiwajshing/keyed-db": "^0.2.4",
 
