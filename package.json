@@ -1,10 +1,10 @@
 {
 
-   "name": "Blackxz-md",
+   "name": "Hermit-md",
 
    "version": "4.3.1",
 
-   "description": "Blackxz-md - Simple whatsapp Multi Device bot based on @adiwajshing/baileys.",
+   "description": "Hermit-md - Simple whatsapp Multi Device bot based on @adiwajshing/baileys.",
 
    "main": "index.js",
 
@@ -14,7 +14,7 @@
 
    },
 
-   "author": "Blackxz",
+   "author": "A-d-i-t-h-y-a-n",
 
    "license": "ISC",
 
@@ -116,12 +116,10 @@
 
       "youtubei.js": "^1.4.2-d.5",
 
-      "blackxz-md": "^1.2.1"
+      "hermit-md": "^1.2.1"
 
    }
 
 }
 
 
-
- 
