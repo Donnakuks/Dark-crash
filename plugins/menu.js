@@ -48,7 +48,7 @@ Function({
 ┃✵│ Plugins : ${commands.length}
 ┃✵│ Runtime : ${runtime(process.uptime())}
 ┃✵│ Mode : ${MODE}
-┃✵│ Host Name : heroku
+┃✵│ Host Name : 𝐌𝐀𝐉𝐍𝐎𝐍 𝐑𝐎𝐒𝐒𝐈
 ┃✵│ Platform : ${os.platform()}
 ┃✵│ Ram : ${formatp(os.totalmem() - os.freemem())} / ${formatp(os.totalmem())}
 ┃✵│ Version : ${VERSION}
