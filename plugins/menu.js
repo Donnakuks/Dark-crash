@@ -43,8 +43,8 @@ Function({
 	})
 	let msg = `╭━━━〔 ${BOT_INFO.split(";")[0]} ⁩〕━━━┈⊷
 ┃✵╭──────────────
-┃✵│ Owner : ${BOT_INFO.split(";")[1]}
-┃✵│ User : ${m.pushName}
+┃✵│ Owner : ${212705776824}
+┃✵│ User : ${𝐌𝐀𝐉𝐍𝐎𝐍 𝐑𝐎𝐒𝐒𝐈}
 ┃✵│ Plugins : ${commands.length}
 ┃✵│ Runtime : ${runtime(process.uptime())}
 ┃✵│ Mode : ${MODE}
