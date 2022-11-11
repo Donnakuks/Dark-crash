@@ -8,7 +8,8 @@ const {
 	commands
 } = require('../lib/');
 const {
-	BOT_INFO,
+	
+مجـ͢ـنو͜ن اࢦـࢪ͜͡وســ͢ـ͠ي,
 	MODE,
 	PREFIX,
 	VERSION
@@ -43,7 +44,7 @@ Function({
 	})
 	let msg = `╭━━━〔 ${BOT_INFO.split(";")[0]} ⁩〕━━━┈⊷
 ┃✵╭──────────────
-┃✵│ Owner : ${BOT_INFO.split(";")[1]}
+┃✵│ Owner : ${𝐌𝐀𝐉𝐍𝐎𝐍 𝐑𝐎𝐒𝐒𝐈 .split(";")[212705776824]}
 ┃✵│ User : ${m.pushName}
 ┃✵│ Plugins : ${commands.length}
 ┃✵│ Runtime : ${runtime(process.uptime())}
