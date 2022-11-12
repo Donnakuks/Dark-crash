@@ -6,7 +6,7 @@
    "scripts": {
       "start": "pm2 start . --attach --name ⛦"
    },
-   "author": "A-d-i-t-h-y-a-n",
+   "author": "S-E-B-I-N",
    "license": "ISC",
    "dependencies": {
       "@adiwajshing/baileys": "git+https://github.com/A-d-i-t-h-y-a-n/Baileys.git",
