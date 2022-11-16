@@ -48,17 +48,17 @@
     "BOT_INFO": {
       "description": "botname;ownername;ownernumber;image url",
       "required": true,
-      "value": "𝛨𝛯𝑅𝛭𝛪𝑇;𝛥𝐷𝛪𝑇𝛨𝑌𝛥𝛮;972528277755;https://i.imgur.com/pbNNWfM.jpeg"
+      "value": "𝗜𝗧𝗦 𝗠𝗘 𝗟𝗜𝗭𝗔;+91 9605101817;https://i.imgur.com/DZzOdZK.jpeg"
     },
     "STICKER_DATA": {
       "description": "sticker package name",
       "required": true,
-      "value": "𝛨𝛯𝑅𝛭𝛪𝑇;𝛥𝐷𝛪𝑇𝛨𝑌𝛥𝛮"
+      "value": "𝛪𝑇𝑆 𝛭𝛯 𝐿𝛪𝛧𝛥"
     },
     "AUDIO_DATA": {
       "description": "audio package name",
       "required": true,
-      "value": "𝛨𝛯𝑅𝛭𝛪𝑇;𝛥𝐷𝛪𝑇𝛨𝑌𝛥𝛮;https://i.imgur.com/pbNNWfM.jpeg"
+      "value": "𝛪𝑇𝑆 𝛭𝛯 𝐿𝛪𝛧𝛥;https://i.imgur.com/DZzOdZK.jpeg"
     },
     "READ_COMMAND": {
       "description": "Read all commands",
