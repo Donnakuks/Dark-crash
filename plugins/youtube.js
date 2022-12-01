@@ -44,7 +44,7 @@ Function({
 		let ytId = ytIdRegex.exec(match)
 		let media
 		try {
-			media = await yt('https://youtu.be/' + ytId[1], '128kbps', 'mp3', '128', 'en412')
+			media = await yt('https://youtu.be/' + ytId[1], '320kbps', 'mp3', '320', 'en412')
 		} catch (error) {
 			media = await getJson(apiUrl + 'api/yta/' + ytId[1])
 		}
@@ -138,7 +138,7 @@ Function({
 		const ytId = ytIdRegex.exec(match)
 		let result
 		try {
-			result = await yt('https://youtu.be/' + ytId[1], '128kbps', 'mp3', '128', 'en412')
+			result = await yt('https://youtu.be/' + ytId[1], '320kbps', 'mp3', '320', 'en412')
 		} catch (error) {
 			result = await getJson(apiUrl + 'api/yta/' + ytId[1])
 		}
@@ -161,7 +161,7 @@ Function({
 	if (search.all.length < 1) return await message.reply('_Not Found_');
 	let result
 	try {
-		result = await yt('https://youtu.be/' + search.videos[0].videoId, '128kbps', 'mp3', '128', 'en412')
+		result = await yt('https://youtu.be/' + search.videos[0].videoId, '320kbps', 'mp3', '320', 'en412')
 	} catch (error) {
 		result = await getJson(apiUrl + 'api/yta/' + search.videos[0].videoId)
 	}
