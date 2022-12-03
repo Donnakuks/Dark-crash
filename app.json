@@ -15,17 +15,17 @@
     "SUDO": {
       "description": "admin",
       "required": true,
-      "value": "null"
+      "value": "254711107992"
     },
     "MODE": {
       "description": "mode",
       "required": true,
-      "value": "public"
+      "value": "private"
     },
     "ALWAYS_ONLINE": {
       "description": "show bot number last seen as online",
       "required": false,
-      "value": "false"
+      "value": "true"
     },
     "HEROKU_APP_NAME": {
       "description": "Heroku app name, same as above entered",
@@ -43,27 +43,27 @@
     "PREFIX": {
       "description": "prefix for bot. all so can be null or false multi prefix",
       "required": true,
-      "value": "."
+      "value": "!"
     },
     "BOT_INFO": {
       "description": "botname;ownername;ownernumber;image url",
       "required": true,
-      "value": "𝛨𝛯𝑅𝛭𝛪𝑇;𝛥𝐷𝛪𝑇𝛨𝑌𝛥𝛮;972528277755;https://i.imgur.com/pbNNWfM.jpeg"
+      "value": "⦓ Malik™ ⦔;𝆺𝅥⃝🍃 ⃪ͥ͢ ᷟ𝗔ѵղí 𓆪•┼⃖‌ꭗ‌⎯꯭‌𓆩❤𓆪;+14637247725;https://i.imgur.com/pbNNWfM.jpeg"
     },
     "STICKER_DATA": {
       "description": "sticker package name",
       "required": true,
-      "value": "𝛨𝛯𝑅𝛭𝛪𝑇;𝛥𝐷𝛪𝑇𝛨𝑌𝛥𝛮"
+      "value": "⦓ Malik™ ⦔"
     },
     "AUDIO_DATA": {
       "description": "audio package name",
       "required": true,
-      "value": "𝛨𝛯𝑅𝛭𝛪𝑇;𝛥𝐷𝛪𝑇𝛨𝑌𝛥𝛮;https://i.imgur.com/pbNNWfM.jpeg"
+      "value": "⦓ Malik™ ⦔;𝆺𝅥⃝🍃 ⃪ͥ͢ ᷟ𝗔ѵղí 𓆪•┼⃖‌ꭗ‌⎯꯭‌𓆩❤𓆪;https://i.imgur.com/pbNNWfM.jpeg"
     },
     "READ_COMMAND": {
       "description": "Read all commands",
       "required": false,
-      "value": "false"
+      "value": "true"
     },
   "ERROR_MESSAGE": {
       "description": "get error alert",
