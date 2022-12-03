@@ -48,7 +48,7 @@
     "BOT_INFO": {
       "description": "botname;ownername;ownernumber;image url",
       "required": true,
-      "value": "⦓ Malik™ ⦔;𝆺𝅥⃝🍃 ⃪ͥ͢ ᷟ𝗔ѵղí 𓆪•┼⃖‌ꭗ‌⎯꯭‌𓆩❤𓆪;+14637247725;https://i.imgur.com/pbNNWfM.jpeg"
+      "value": "⦓ Malik™ ⦔;+14637247725;https://i.imgur.com/wvFejiE.jpeg"
     },
     "STICKER_DATA": {
       "description": "sticker package name",
@@ -58,7 +58,7 @@
     "AUDIO_DATA": {
       "description": "audio package name",
       "required": true,
-      "value": "⦓ Malik™ ⦔;𝆺𝅥⃝🍃 ⃪ͥ͢ ᷟ𝗔ѵղí 𓆪•┼⃖‌ꭗ‌⎯꯭‌𓆩❤𓆪;https://i.imgur.com/pbNNWfM.jpeg"
+      "value": "⦓ Malik™ ⦔;https://i.imgur.com/wvFejiE.jpeg"
     },
     "READ_COMMAND": {
       "description": "Read all commands",
