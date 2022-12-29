@@ -43,7 +43,7 @@
     "PREFIX": {
       "description": "prefix for bot. all so can be null or false multi prefix",
       "required": true,
-      "value": "."
+      "value": "null"
     },
     "BOT_INFO": {
       "description": "botname;ownername;ownernumber;image url",
@@ -62,7 +62,7 @@
     },
     "READ_COMMAND": {
       "description": "Read all commands",
-      "required": false,
+      "required": true,
       "value": "false"
     },
   "ERROR_MESSAGE": {
