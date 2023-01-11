@@ -1,4 +1,5 @@
 // credit to mask sir
+global.lolkey = 'SGWN'
 const {
 	Function,
 	isPublic,
@@ -30,18 +31,33 @@ Function({
 	let sender = 'https://wa.me/' + (m.reply_message.sender || m.mention[0] || text).split('@')[0];
 	await m.reply(sender)
 });
-
 Function({
 	pattern: 'attp ?(.*)',
 	fromMe: isPublic,
-	desc: 'Text to animated sticker',
+	desc: 'Text to animated sticker ',
 	type: 'sticker'
 }, async (m, text, client) => {
 	if (!text && !m.quoted) return m.reply("*Give me a text.*")
 	let match = text ? text : m.quoted && m.quoted.text ? m.quoted.text : text
 	await client.sendMessage(m.chat, {
 		sticker: {
-			url: `https://api.xteam.xyz/attp?file&text=${encodeURI(match)}`
+			url: `https://api.tiodevhost.my.id/api/maker/attp?text={encodeURI(match)}`
+		}
+	}, {
+		quoted: m.data
+	})
+})
+Function({
+	pattern: '2attp ?(.*)',
+	fromMe: isPublic,
+	desc: 'Text to animated sticker ',
+	type: 'sticker'
+}, async (m, text, client) => {
+	if (!text && !m.quoted) return m.reply("*Give me a text.*")
+	let match = text ? text : m.quoted && m.quoted.text ? m.quoted.text : text
+	await client.sendMessage(m.chat, {
+		sticker: {
+			url: `https://api.lolhuman.xyz/api/attp2?apikey=${global.lolkey}&text={encodeURI(match)}`
 		}
 	}, {
 		quoted: m.data
