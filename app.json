@@ -1,10 +1,10 @@
 {
-  "name": "whatsapp-bot (hermit-md)",
+  "name": "➢⃟🦅🇦  ғͥᴛᴀᷧʙⷨ🍃🇰ʜᴀɴ🌷⃟➢",
   "description": " Whatsapp bot.",
   "keywords": [
     "whatsapp bot"
   ],
-  "repository": "https://github.com/A-d-i-t-h-y-a-n/hermit-md",
+  "repository": "https://github.com/aftab2683/hermit-md",
   "stack": "container",
   "env": {
     "SESSION_ID": {
@@ -48,17 +48,17 @@
     "BOT_INFO": {
       "description": "botname;ownername;ownernumber;image url",
       "required": true,
-      "value": "𝛨𝛯𝑅𝛭𝛪𝑇;𝛥𝐷𝛪𝑇𝛨𝑌𝛥𝛮;972528277755;https://i.imgur.com/pbNNWfM.jpeg"
+      "value": "➢⃟🦅🇦  ғͥᴛᴀᷧʙⷨ🍃🇰ʜᴀɴ🌷⃟➢;923015326254;https://telegra.ph/file/15e3e1f10faaacbb067a5.jpg"
     },
     "STICKER_DATA": {
       "description": "sticker package name",
       "required": true,
-      "value": "𝛨𝛯𝑅𝛭𝛪𝑇;𝛥𝐷𝛪𝑇𝛨𝑌𝛥𝛮"
+      "value": "➢⃟🦅🇦  ғͥᴛᴀᷧʙⷨ🍃🇰ʜᴀɴ🌷⃟➢;03015326254"
     },
     "AUDIO_DATA": {
       "description": "audio package name",
       "required": true,
-      "value": "𝛨𝛯𝑅𝛭𝛪𝑇;𝛥𝐷𝛪𝑇𝛨𝑌𝛥𝛮;https://i.imgur.com/pbNNWfM.jpeg"
+      "value": "➢⃟🦅🇦  ғͥᴛᴀᷧʙⷨ🍃🇰ʜᴀɴ🌷⃟➢;https://telegra.ph/file/15e3e1f10faaacbb067a5.jpg"
     },
     "READ_COMMAND": {
       "description": "Read all commands",
