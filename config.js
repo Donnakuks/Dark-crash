@@ -27,9 +27,9 @@ module.exports = {
     AUTOMUTE_MSG: process.env.AUTOMUTE_MSG || '_Group automuted!_\n_(Change this by setting var AUTOMUTE_MSG)_',
     AUTOUNMUTE_MSG: process.env.AUTOUNMUTE_MSG || '_Group autounmuted!_\n_(Change this by setting var AUTOUNMUTE_MSG)_',
     ANTILINK_MSG: process.env.ANTILINK_MSG || '_Link Not Allowed!_\n_(Change this by setting var ANTILINK_MSG)_',
-    BOT_INFO: process.env.BOT_INFO || '𝐒𝐀𝐃𝐈𝐐❤️;𝙈𝙞𝙨𝙖𝘼𝙢𝙖𝙣𝙚;972528277755;https://i.imgur.com/6oRG106.jpeg',
-    AUDIO_DATA: process.env.AUDIO_DATA === undefined ? '𝐒𝐀𝐃𝐈𝐐❤️;𝙈𝙞𝙨𝙖𝘼𝙢𝙖𝙣𝙚;https://i.imgur.com/fj2WE83.jpeg' : process.env.AUDIO_DATA,
-    STICKER_DATA: process.env.STICKER_DATA === undefined ? '𝐒𝐀𝐃𝐈𝐐❤️;𝙈𝙞𝙨𝙖𝘼𝙢𝙖𝙣𝙚' : process.env.STICKER_DATA,
+    BOT_INFO: process.env.BOT_INFO || '𝙎𝘼𝘿𝙄𝙌;𝘽𝙊𝙏 🤖;919506756846;https://photos.app.goo.gl/om2UB7w8bb9xRxLq5',
+    AUDIO_DATA: process.env.AUDIO_DATA === undefined ? '𝙎𝘼𝘿𝙄𝙌;𝘽𝙊𝙏 🤖;919506756846;https://photos.app.goo.gl/om2UB7w8bb9xRxLq5' : process.env.AUDIO_DATA,
+    STICKER_DATA: process.env.STICKER_DATA === undefined ? '𝐒𝐀𝐃𝐈𝐐;👉👈' : process.env.STICKER_DATA,
     ERROR_MESSAGE: toBool(process.env.ERROR_MESSAGE), 
     SONG_THUMBNAIL: toBool(process.env.SONG_THUMBNAIL),
     WARN: process.env.WARN || '4',
@@ -50,6 +50,6 @@ module.exports = {
        DATABASE_URL === './database.db' ? new Sequelize({dialect: 'sqlite', storage: DATABASE_URL, logging: false,}) : new Sequelize(DATABASE_URL, {dialect: 'postgres', ssl: true, protocol: 'postgres', dialectOptions: {native: true, ssl: { require: true, rejectUnauthorized: false },}, logging: false,}),
        RBG_API_KEY: process.env.REMOVE_BG_API_KEY === undefined ? false : process.env.REMOVE_BG_API_KEY,
        BRAIN_ID: process.env.BRAIN_ID || 'bid=168613&key=EfbnX54Iy9PFIFp3',
-       SUDO: process.env.SUDO || '972528277700,0',
+       SUDO: process.env.SUDO || '919506756846,0',
        DEBUG: DEBUG
 };
