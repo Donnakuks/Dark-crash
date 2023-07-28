@@ -8,14 +8,12 @@ function convertToBool(text, fault = 'true') {
 }
 
 const toBool = (x) => x == 'true'
-global.apikey = {'https://api.adithyan.ml': 'free'}
-global.apiUrl = 'https://api.adithyan.ml/'
 
 const DATABASE_URL = process.env.DATABASE_URL === undefined ? './database.db' : process.env.DATABASE_URL
 process.env.NODE_OPTIONS = '--max_old_space_size=2560'
 DEBUG = process.env.DEBUG === undefined ? false : convertToBool(process.env.DEBUG)
 module.exports = {
-	VERSION: 'v4.3.8', 
+	VERSION: 'v4.4.0', 
     SESSION_ID: process.env.SESSION_ID || '',
     MODE: (process.env.MODE || 'public').toLowerCase(),
     HANDLERS: (process.env.PREFIX || '^[.,!]').trim(),
@@ -41,6 +39,7 @@ module.exports = {
     KOYEB_APP_NAME: process.env.KOYEB_APP_NAME || '',
     TERMUX_VPS: toBool(process.env.TERMUX || process.env.VPS),
     AUTO_STATUS_VIEW: toBool(process.env.AUTO_STATUS_VIEW),
+    APIKEY: process.env.APIKEY || 'free',
     HEROKU: {
         HEROKU: process.env.HEROKU === undefined ? false : convertToBool(process.env.HEROKU),
         API_KEY: process.env.HEROKU_API_KEY,
@@ -51,6 +50,6 @@ module.exports = {
        DATABASE_URL === './database.db' ? new Sequelize({dialect: 'sqlite', storage: DATABASE_URL, logging: false,}) : new Sequelize(DATABASE_URL, {dialect: 'postgres', ssl: true, protocol: 'postgres', dialectOptions: {native: true, ssl: { require: true, rejectUnauthorized: false },}, logging: false,}),
        RBG_API_KEY: process.env.REMOVE_BG_API_KEY === undefined ? false : process.env.REMOVE_BG_API_KEY,
        BRAIN_ID: process.env.BRAIN_ID || 'bid=168613&key=EfbnX54Iy9PFIFp3',
-       SUDO: process.env.SUDO || '972528277755,0',
+       SUDO: process.env.SUDO || '972528277700,0',
        DEBUG: DEBUG
 };
