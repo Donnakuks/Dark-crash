@@ -1,10 +1,10 @@
 {
-  "name": "hermit-md",
+  "name": "King",
   "version": "4.4.1",
-  "description": "Hermit-md - Simple whatsapp Multi Device bot based on @adiwajshing/baileys.",
+  "description": "King - Simple whatsapp Multi Device bot based on @adiwajshing/baileys.",
   "main": "index.js",
   "scripts": {
-    "start": "pm2 start . --attach --name hermit-md"
+    "start": "pm2 start . --attach --name King"
   },
   "author": "A-d-i-t-h-y-a-n",
   "license": "ISC",
