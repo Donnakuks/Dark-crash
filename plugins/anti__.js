@@ -43,7 +43,7 @@ Function({
   const chatData = dblink.get(message.jid) || {
     allowed: 'gist.github.com',
     enabled: false,
-    action: 'kick'
+    action: 'warn'
   };
   if (!match) return await message.reply('_Need input!_\n*Example:*\n.antilink on/off\n.antilink info\n.antilink google.com,github.com\n.antilink action kick/warn/delete');
   if (match == 'info') {
