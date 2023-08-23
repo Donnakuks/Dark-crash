@@ -13,7 +13,7 @@
       "value": ""
     },
     "SUDO": {
-      "description": "owner number of the bot",
+      "description": "+254742249762",
       "required": true,
       "value": "null"
     },
@@ -27,11 +27,15 @@
       "required": false,
       "value": "false"
     },
-    "HEROKU_APP_NAME": {
+    "HEROKU_APP_NAME": {xpapi 
       "description": "Heroku app name, same as above entered",
       "required": true
     },
-    "HEROKU_API_KEY": {
+    "HEROKU_API_KEY": { the following code to set up your app for local development.
+
+heroku config:add \ HEROKU_OAUTH_ID=1e5df5ee-626f-44b9-98a3-62a3135effe0 \ HEROKU_OAUTH_SECRET=cca13078-0aa7-4b07-a616-6e7bcbac33d0
+
+
       "description": "Heroku account api key, https://dashboard.heroku.com/account",
       "required": true
     },
@@ -45,10 +49,10 @@
       "required": true,
       "value": "."
     },
-    "BOT_INFO": {
+    "BOT_INFO": {xpapi 
       "description": "botname;ownername;ownernumber;image url",
       "required": true,
-      "value": "ʜᴇʀᴍɪᴛ;ᴀᴅɪᴛʜyᴀɴ;972528277755;https://i.imgur.com/pbNNWfM.jpeg"
+      "value": "ʜᴇʀᴍɪᴛ;ᴀᴅɪᴛʜyᴀɴ;254742249762;https://i.imgur.com/pbNNWfM.jpeg"
     },
     "STICKER_DATA": {
       "description": "sticker package name",
