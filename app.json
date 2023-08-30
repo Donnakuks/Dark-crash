@@ -1,26 +1,26 @@
 {
-  "name": "hermit-md",
+  "name": "xpapi",
   "description": " Whatsapp bot.",
-  "keywords": [
+  "keywords": [. ]
     "whatsapp bot"
   ],
   "repository": "https://github.com/A-d-i-t-h-y-a-n/hermit-md",
   "stack": "container",
   "env": {
-    "SESSION_ID": {
+    "SESSION_ID": {08_24_H_E_R_M_I_T_KGVQBA0
       "description": "session id",
       "required": true,
       "value": ""
     },
     "SUDO": {
-      "description": "owner number of the bot",
+      "description": "0742249762",
       "required": true,
-      "value": "null"
+      "value": "0742249762"
     },
     "MODE": {
       "description": "mode public or private",
       "required": true,
-      "value": "private"
+      "value": "public"
     },
     "ALWAYS_ONLINE": {
       "description": "show bot number last seen as online",
@@ -28,7 +28,7 @@
       "value": "false"
     },
     "HEROKU_APP_NAME": {
-      "description": "Heroku app name, same as above entered",
+      "description": "xpapi",
       "required": true
     },
     "HEROKU_API_KEY": {
