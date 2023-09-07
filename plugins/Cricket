@@ -1,0 +1,32 @@
+// made 4 & by 𒄬 𓆩𝙇𝙐𝘾𝞘𝙁𝞢𝞒  𝞖𝞓𝙎𝞢𝞢𝞑𓆪 
+// ======== MATCH URL HERE ==========
+// Set MATCH_URL in heroku config vars with crickbuzz match links.
+// ==================================
+const {getJson} = require ('./misc/misc');
+const {Module} = require('../main');
+const {MODE} = require('../config');
+var fm = MODE == 'public' ? false : true
+Module({ pattern: 'score ?(.*)', fromMe: fm, desc: "Gets cricket live scores" }, async (message, match) => {
+if (process.env.MATCH_URL === undefined) return await message.send('_No matchs found. Set MATCH_URL in config vars!_')
+var data = await getJson('https://crickbuzz.vercel.app/score?url='+process.env.MATCH_URL+'&timestamp='+new Date());
+var msg = '';
+if (!data.title.includes('Data')) msg += data.title + `\n`
+if (!data.update.includes('Data')) msg += `*`+data.update + `*\n\n`
+if (!data.current.includes('Data')) msg += '*'+data.current + `*\n`
+if (!data.batsman.includes('Data')) msg += `Batsman 🏏: *${data.batsman} - ${data.batsmanrun} ${data.ballsfaced}\n`
+if (!data.sr.includes('Data')) msg +=`Strike rate: ${data.sr}\n`
+if (!data.batsman.includes('Data')) msg +=`Batsman 2 🏏: *${data.batsmantwo}* - ${data.batsmantworun} ${data.batsmantwoballsfaced}\n`
+if (!data.batsman.includes('Data')) msg += `Strike rate: ${data.batsmantwosr}\n\n`
+if (!data.batsman.includes('Data')) msg += `Bowler ⚾: *${data.bowler}*\n`
+if (!data.batsman.includes('Data')) msg +=`Over: ${data.bowlerover}\n`
+if (!data.batsman.includes('Data')) msg += `Runs: ${data.bowlerruns}\n`
+if (!data.batsman.includes('Data')) msg +=`Wickets: ${data.bowlerwickets}\n`
+if (!data.batsman.includes('Data')) msg+=`Bowler 2: ${data.bowlertwo}\n\n`
+if (!data.batsman.includes('Data')) {
+msg += `${data.recentballs}\n\n`
+msg += `Last wicket ❌ ${data.lastwicket}\n`
+msg += `Run rate %: *${data.runrate}*\n`
+}
+await message.sendMessage('*Live score updating... 🏏🏏*');
+await message.sendMessage(msg);
+})
