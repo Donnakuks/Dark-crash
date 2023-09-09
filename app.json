@@ -48,17 +48,17 @@
     "BOT_INFO": {
       "description": "botname;ownername;ownernumber;image url",
       "required": true,
-      "value": "ʜᴇʀᴍɪᴛ;ᴀᴅɪᴛʜyᴀɴ;972528277755;https://i.imgur.com/pbNNWfM.jpeg"
+      "value": "ʜᴇʀᴍɪᴛ;☠⃝𝕬𝖗𝖘𝖑𝖆𝖓;923012995636;https://telegra.ph/file/ba71b12a0aa6eb79f743c.jpg"
     },
     "STICKER_DATA": {
       "description": "sticker package name",
       "required": true,
-      "value": "ʜᴇʀᴍɪᴛ;ᴀᴅɪᴛʜyᴀɴ"
+      "value": "▁ ▂ ▄ ▅ ▆ ▇ █ [ ☠⃝𝕬𝖗𝖘𝖑𝖆𝖓 ] █ ▇ ▆ ▅ ▄ ▂ ▁"
     },
     "AUDIO_DATA": {
       "description": "audio package name",
       "required": true,
-      "value": "ʜᴇʀᴍɪᴛ;ᴀᴅɪᴛʜyᴀɴ;https://i.imgur.com/pbNNWfM.jpeg"
+      "value": "☠⃝𝕬𝖗𝖘𝖑𝖆𝖓;https://telegra.ph/file/ba71b12a0aa6eb79f743c.jpg"
     },
     "READ_MSG": {
       "description": "Read all messages",
