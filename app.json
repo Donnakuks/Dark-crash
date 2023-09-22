@@ -1,5 +1,5 @@
 {
-  "name": "hermit-md",
+  "name": "scorpion-md",
   "description": " Whatsapp bot.",
   "keywords": [
     "whatsapp bot"
@@ -15,7 +15,7 @@
     "SUDO": {
       "description": "owner number of the bot",
       "required": true,
-      "value": "null"
+      "value": "2348024031146"
     },
     "MODE": {
       "description": "mode public or private",
@@ -48,7 +48,7 @@
     "BOT_INFO": {
       "description": "botname;ownername;ownernumber;image url",
       "required": true,
-      "value": "ʜᴇʀᴍɪᴛ;ᴀᴅɪᴛʜyᴀɴ;972528277755;https://i.imgur.com/pbNNWfM.jpeg"
+      "value": "ʜᴇʀᴍɪᴛ;ᴀᴅɪᴛʜyᴀɴ;2348024031146;https://i.imgur.com/pbNNWfM.jpeg"
     },
     "STICKER_DATA": {
       "description": "sticker package name",
@@ -78,7 +78,7 @@
     "WARN": {
       "description": "warn count",
       "required": false,
-      "value": "4"
+      "value": "3"
     },
     "SONG_THUMBNAIL": {
       "description": "show youtube video thumbnail in song cmd",
