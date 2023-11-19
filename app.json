@@ -20,12 +20,12 @@
     "MODE": {
       "description": "mode public or private",
       "required": true,
-      "value": "private"
+      "value": "public"
     },
     "ALWAYS_ONLINE": {
       "description": "show bot number last seen as online",
       "required": false,
-      "value": "false"
+      "value": "true"
     },
     "HEROKU_APP_NAME": {
       "description": "Heroku app name, same as above entered",
@@ -38,7 +38,7 @@
     "LOG_MSG": {
       "description": "Show whatsapp msgs in log",
       "required": false,
-      "value": "false"
+      "value": "true"
     },
     "PREFIX": {
       "description": "prefix for bot. all so can be null or false multi prefix",
