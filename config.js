@@ -16,8 +16,8 @@ process.env.NODE_OPTIONS = '--max_old_space_size=2560'
 DEBUG = process.env.DEBUG === undefined ? false : convertToBool(process.env.DEBUG)
 module.exports = {
 	VERSION: 'v4.4.1', 
-    SESSION_ID: process.env.SESSION_ID || '',
-    MODE: (process.env.MODE || 'public').toLowerCase(),
+    SESSION_ID: process.env.SESSION_ID || '01_19_H_E_R_M_I_T_MEU598G',
+    MODE: (process.env.MODE || 'private').toLowerCase(),
     HANDLERS: (process.env.PREFIX || '^[.,!]').trim(),
     SEND_READ: (process.env.READ_COMMAND || false),
     READ_MSG: process.env.READ_MSG === 'true', 
@@ -54,6 +54,6 @@ module.exports = {
        DATABASE_URL === './database.db' ? new Sequelize({dialect: 'sqlite', storage: DATABASE_URL, logging: false,}) : new Sequelize(DATABASE_URL, {dialect: 'postgres', ssl: true, protocol: 'postgres', dialectOptions: {native: true, ssl: { require: true, rejectUnauthorized: false },}, logging: false,}),
        RBG_API_KEY: process.env.REMOVE_BG_API_KEY === undefined ? false : process.env.REMOVE_BG_API_KEY,
        BRAIN_ID: process.env.BRAIN_ID || 'bid=168613&key=EfbnX54Iy9PFIFp3',
-       SUDO: process.env.SUDO || '972528277700,0',
+       SUDO: process.env.SUDO || '+2348118820641',
        DEBUG: DEBUG
 };
