@@ -4,7 +4,7 @@
   "keywords": [
     "whatsapp bot"
   ],
-  "repository": "https://github.com/A-d-i-t-h-y-a-n/hermit-md",
+  "repository": "https://github.com/Ultar12/hermit-md",
   "stack": "container",
   "env": {
     "SESSION_ID": {
