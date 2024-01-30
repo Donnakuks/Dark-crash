@@ -4,4 +4,4 @@ RUN git clone https://github.com/A-d-i-t-h-y-a-n/hermit-md /root/hermit-md
 WORKDIR /root/hermit-md/
 RUN yarn install --network-concurrency 1
 EXPOSE 1337
-CMD ["node", "index.js"]
+CMD ["npm", "start"]
