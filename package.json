@@ -4,8 +4,9 @@
   "description": "Hermit-md - Simple whatsapp Multi Device bot based on @adiwajshing/baileys.",
   "main": "index.js",
   "scripts": {
-    "start": "pm2 start . --attach --name hermit-md"
-  },
+  "start": "node dist/bundle.js",
+  "build": "webpack"
+}
   "author": "A-d-i-t-h-y-a-n",
   "license": "ISC",
   "dependencies": {
