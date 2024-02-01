@@ -1,6 +1,3 @@
-# syntax=docker/dockerfile:1
-# Build stage
-FROM quay.io/hermit/hermit-ser:latest AS builder
 ENV APP_DIR=/root/hermit-md
 ENV APP_NAME=hermit-md
 RUN git clone https://github.com/A-d-i-t-h-y-a-n/$APP_NAME $APP_DIR
