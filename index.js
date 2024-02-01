@@ -1,11 +1,11 @@
-const client = require('./lib/client')
+// Import the required modules
+const express = require("express");
+const app = express();
 
-const connect = async () => {
-	try {
-		await client.connect()
-	} catch (error) {
-		console.error(error)
-	}
-}
+// Set the port from the environment variable or a default value
+const port = process.env.PORT || 3000;
 
-connect()
+// Start the server
+app.listen(port, () => {
+  console.log(`Server running on port ${port}`);
+});
