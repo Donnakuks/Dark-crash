@@ -89,11 +89,18 @@
       "description": "get error alert",
       "required": false,
       "value": "true"
+    },
+    "PORT": {
+      "description": "The port to run the app on",
+      "value": "3000"
     }
   },
   "addons": [
     {
       "plan": "heroku-postgresql"
     }
-  ]
+  ],
+  "scripts": {
+    "start": "const PORT = process.env.PORT || 3000;\napp.listen(PORT, () => {\n    console.log(`App is running on port ${ PORT }`);\n});"
+  }
 }
