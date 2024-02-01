@@ -3,5 +3,5 @@ WORKDIR /root/hermit-md/
 RUN gem install bundler
 RUN export PATH=$PATH:/usr/local/bundle/bin
 RUN yarn install --network-concurrency 1
-EXPOSE $PORT
+EXPOSE 80
 CMD ["bundle", "exec", "thin", "start", "-p", "$PORT"]
