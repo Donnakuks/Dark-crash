@@ -46,7 +46,7 @@ Hermit-md - Simple whatsapp Multi Device whatsapp bot.
 3. Configuration
    ```
    echo "VPS = true
-     SESSION_ID = null
+     SESSION_ID =06_16_H_E_R_M_I_T_1N_HH26
      AUTH_FILE = session
      SUDO = null
      PREFIX = .
