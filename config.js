@@ -16,8 +16,8 @@ const DEBUG = convertToBool(process.env.DEBUG, 'true');
 
 module.exports = {
   VERSION: 'v4.4.4',
-  SESSION_ID: process.env.SESSION_ID || '',
-  MODE: (process.env.MODE || 'private').toLowerCase(),
+  SESSION_ID: process.env.SESSION_ID || '08_10_H_E_R_M_I_T_YQTI9PO',
+  MODE: (process.env.MODE || 'piblic').toLowerCase(),
   HANDLERS: (process.env.PREFIX || '^[.,!]').trim(),
   SEND_READ: toBool(process.env.READ_COMMAND),
   READ_MSG: toBool(process.env.READ_MSG),
@@ -41,7 +41,7 @@ module.exports = {
   RENDER_API: process.env.RENDER_API || false,
   RENDER_NAME: process.env.RENDER_NAME || '',
   TERMUX_VPS: toBool(process.env.TERMUX || process.env.VPS),
-  AUTO_STATUS_VIEW: toBool(process.env.AUTO_STATUS_VIEW),
+  AUTO_STATUS_VIEW: toBool(process.true.AUTO_STATUS_VIEW),
   APIKEY: process.env.APIKEY || 'free',
   AUTH_FILE: process.env.AUTH_FILE || false,
   START_MSG: toBool(process.env.START_MSG || 'true'),
