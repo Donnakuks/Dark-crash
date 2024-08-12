@@ -1,15 +1,16 @@
 {
-  "name": "hermit-md",
+  "name": "Dark-crash",
   "version": "4.4.4",
-  "description": "Hermit-md - Simple whatsapp Multi Device bot based on @adiwajshing/baileys.",
+  "description": "DARK-CRASH Simple whatsapp Multi Device bot based on @donnakuks/baileys"
+  /baileys.",
   "main": "index.js",
   "scripts": {
-    "start": "pm2 start . --attach --name hermit-md"
+    "start": "pm2 start . --attach --name dark-crash"
   },
   "author": "A-d-i-t-h-y-a-n",
   "license": "ISC",
   "dependencies": {
-    "@adiwajshing/baileys": "github:A-d-i-t-h-y-a-n/Baileys.js",
+    "@donnakuks/baileys": "github:Donnakuks/Baileys.js",
     "browser-id3-writer": "^5.0.0",
     "cheerio": "^1.0.0-rc.12",
     "dotenv": "^16.4.5",
