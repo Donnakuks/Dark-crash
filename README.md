@@ -1,5 +1,5 @@
-#### HERMIT MD WHATSAPP BOT
-Hermit-md - Simple whatsapp Multi Device whatsapp bot.
+#### DARK CRASH WHATSAPP BOT
+> DARK CRASH - Simple whatsapp Multi Device whatsapp bot.
 
 ***
 
@@ -67,7 +67,7 @@ Hermit-md - Simple whatsapp Multi Device whatsapp bot.
   ```
 <br>
 
-For help visit [Github wiki](https://github.com/A-d-i-t-h-y-a-n/hermit-md/wiki)
+For help visit [Github (https://github.com/Donnakuks/Dark-crash)
 
 ***
-<a href="https://whatsapp.com/channel/0029Va4OxFAGk1FjrFvTJa1V"><img alt="WhatsApp" src="https://img.shields.io/badge/-Whatsapp%20Channel-white?style=for-the-badge&logo=whatsapp&logoColor=black"/></a>
+><img alt="WhatsApp" src="https://img.shields.io/badge/-Whatsapp%20Channel-white?style=for-the-badge&logo=whatsapp&logoColor=black"/></a>
