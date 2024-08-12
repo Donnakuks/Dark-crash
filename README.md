@@ -43,8 +43,7 @@
 2. Installation
    ```
    npm i -global pm2
-   git clone https://github.com/A-d-i-t-h-y-a-n/hermit-md.git
-   cd hermit-md
+   git clone https://github.com/Donnakuks/Dark-crash
    npm install
    ```
 3. Configuration
@@ -63,11 +62,14 @@
   ```
 - Stop
   ```
-  pm2 delete hermit-md
+  pm2 delete DARK-CRASH
+  
   ```
 <br>
-
+`PANEL DEPLOY`
+  (https://account.solarhosting.cc/register?ref=KbYwaIDf)
+     
 For help visit [Github (https://github.com/Donnakuks/Dark-crash)
 
 ***
-><img alt="WhatsApp" src="https://img.shields.io/badge/-Whatsapp%20Channel-white?style=for-the-badge&logo=whatsapp&logoColor=black"/></a>
+ DM OWNER FOR ANY INFO (wa.me/2347046347590)
